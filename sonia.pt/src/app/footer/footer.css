@@ -1,0 +1,49 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 20px 24px;
+  background-color: #1e293b;
+  color: #e2e8f0;
+}
+
+/* Bloco de texto (nome + telefone) */
+.footer-info p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.phone a {
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+.phone a:hover {
+  color: #38bdf8;
+}
+
+/* Ícones sociais */
+.footer-social {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-social a {
+  color: #94a3b8;
+  display: inline-flex;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.footer-social a:hover {
+  color: #38bdf8;
+  transform: translateY(-2px);
+}
